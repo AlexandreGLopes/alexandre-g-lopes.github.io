@@ -11,11 +11,11 @@
     <img src="image-2.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-3.png">
+  <a href="image-3.png" target="_blank">
     <img src="image-3.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-4.png">
+  <a href="image-4.png" target="_blank">
     <img src="image-4.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -23,15 +23,15 @@
   &emsp;&emsp;Na transformation uso a função Set para adicionar os elementos a arrays em variaveis globais. E depois no script eu percorro esses arrays para montar um array de Dict() montando algo como se fosse um objeto complexo com vários parametros.  
   &emsp;&emsp;Essa é a forma correta?  
 
-  <a href="image-1.png">
+  <a href="image-1.png" target="_blank">
     <img src="image-1.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-5.png">
+  <a href="image-5.png" target="_blank">
     <img src="image-5.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-6.png">
+  <a href="image-6.png" target="_blank">
     <img src="image-6.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -43,7 +43,7 @@
   ```
   &emsp;&emsp;Engraçado que a variable do Read (envioERP) deles parece ser diferente da do Write (io). Gostaria de entender o que se passa nesse caso.  
 
-  <a href="image.png">
+  <a href="image.png" target="_blank">
     <img src="image.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -71,11 +71,11 @@
   ```
   &emsp;&emsp;Segue abaixo o exemplo de como eu fiz na operation "SalesForce Update Account":  
   
-  <a href="image-7.png">
+  <a href="image-7.png" target="_blank">
     <img src="image-7.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-8.png">
+  <a href="image-8.png" target="_blank">
     <img src="image-8.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -86,15 +86,15 @@
   ```
   &emsp;&emsp;A seguir os prints que mostram como ficou no final:  
 
-  <a href="image-9.png">
+  <a href="image-9.png" target="_blank">
     <img src="image-9.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-10.png">
+  <a href="image-10.png" target="_blank">
     <img src="image-10.png" alt="Texto Alternativo" width="200" />
   </a>
 
-  <a href="image-11.png">
+  <a href="image-11.png" target="_blank">
     <img src="image-11.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -114,10 +114,10 @@
   &emsp;&emsp;Fiz três operations e cada uma delas usa um conector Http V2 diferente: um POST, um PUT e um PATCH. Para cada um deles tive que configurar o response schema de uma forma diferente.  
   &emsp;&emsp;A primeira que configurei foi a operation "Upload File To SignUp Documents" usando um conector POST. Aí eu consegui configurar da forma a qual eu já tinha visto nos tutoriais: Usando um JSON de schema que eu recuperei da documentação da API para a qual estamos fazendo a requisição.  
 
-  <a href="image-12.png">
+  <a href="image-12.png" target="_blank">
     <img src="image-12.png" alt="Texto Alternativo" width="200" />
   </a>
-  <a href="image-13.png">
+  <a href="image-13.png" target="_blank">
     <img src="image-13.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -131,13 +131,13 @@
 
   &emsp;&emsp;A egunda  que configurei foi a de PUT da operation "SalesForce Update Account". Essa eu tentei fazer igual à primeira acima. Mas não deu certo. eu tinha um problema toda vez que rodava: Os logs marcavam como sucesso, mas as variáveis que a transformation subsequente populava ficavam sempre vazias. Apesar de eu ver os valores sendo retornados nos xmls dos logs do debug.  
 
-  <a href="image-14.png">
+  <a href="image-14.png" target="_blank">
     <img src="image-14.png" alt="Texto Alternativo" width="200" />
   </a>
-  <a href="image-15.png">
+  <a href="image-15.png" target="_blank">
     <img src="image-15.png" alt="Texto Alternativo" width="200" />
   </a>
-  <a href="image-16.png">
+  <a href="image-16.png" target="_blank">
     <img src="image-16.png" alt="Texto Alternativo" width="200" />
   </a>
 
@@ -168,7 +168,7 @@
   &emsp;&emsp;Coloquei o response que recebo da requisição dentro do campo de body e usei isso tudo dentro do schema de reponse do conector e aí consegui rodar sem problemas no caso dessa operation. Só aí as varáveis passaram a ter os seus valores populados corretamente pela transformation posterior do conector.  
   &emsp;&emsp;E teve ainda um último caso de uma operation, chamada "Update VTEX Client CustomFields" que usa um conector Patch na qual eu não coloquei nenhum json no scham de response. Esta última não tive problemas porque dela eu não retiro nenhum valor da resposta para colocar em nenhuma variável. Mas é mais um jeito de realizar a configuração.  
 
-  <a href="image-17.png">
+  <a href="image-17.png" target="_blank">
     <img src="image-17.png" alt="Texto Alternativo" width="200" />
   </a>
   
