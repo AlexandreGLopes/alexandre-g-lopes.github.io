@@ -7,7 +7,7 @@
   &emsp;&emsp;Essa seria a forma mais correta?  
   &emsp;&emsp;Essa aqui foi a primeira que consegui criar. Tentei replicar ela na operation que explicarei a seguir. Mas, apesar de replicar essa mesma lógica tive erros na execução, e só consegui fazer funcionar de oputra forma.  
 
-  <a href="image-2.png">
+  <a href="image-2.png" target="_blank">
     <img src="image-2.png" alt="Texto Alternativo" width="200" />
   </a>
 
